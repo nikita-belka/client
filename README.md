@@ -10,8 +10,11 @@
 - ESLint
 
 ## Запуск
-
+```bash
+npm run dev
+```
 ### Установка зависимостей
 
 ```bash
 npm install
+```
