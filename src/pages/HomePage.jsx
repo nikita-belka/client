@@ -5,11 +5,13 @@ function HomePage() {
     return (
         <div>
             <h1>Добро пожаловать</h1>
-            <p>Здесь позже появится форма входа.</p>
-
+            <p>Пожалуйста, авторизуйтесь или зарегистрируйтесь.</p>
+            <button onClick={() => navigate('/login')}>
+                Войти по логину
+            </button>
 
             <button onClick={() => navigate('/users')}>
-                Перейти к списку
+                Войти в систему (демо)
             </button>
         </div>
     )
